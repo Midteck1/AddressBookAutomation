@@ -10,7 +10,7 @@ public class FirstTest {
 	public void getData() {
 		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver 2");
+		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver (1).exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://manojpadhan.azurewebsites.net/addressbook/");
 		System.out.println(driver.getTitle());
